@@ -27,7 +27,6 @@
 				</svg>
 			</div>
 			<ul
-				tabindex="0"
 				class="menu menu-sm dropdown-content bg-neutral text-neutral-content rounded-box z-1 mt-3 w-52 p-2 shadow"
 			>
 				<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1">首頁</a></li>
@@ -35,7 +34,7 @@
 				<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1">物品掉落查詢</a></li>
 
 				<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1">常見問題</a></li>
-				<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1">關於我們</a></li>
+				<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1/about">關於我們</a></li>
 			</ul>
 		</div>
 		<a class="btn btn-ghost text-xl" href="https://127.0.0.1">Problytic</a>
