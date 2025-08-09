@@ -1,6 +1,7 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
 	import '../app.css';
+	const baseUrl = __BASE_URL__;
 	let { children } = $props();
 </script>
 
@@ -29,28 +30,28 @@
 			<ul
 				class="menu menu-sm dropdown-content bg-neutral text-neutral-content rounded-box z-1 mt-3 w-52 p-2 shadow"
 			>
-				<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1">首頁</a></li>
-				<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1">怪物掉落查詢</a></li>
-				<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1">物品掉落查詢</a></li>
+				<li><a class="btn btn-ghost text-xl" href={baseUrl}>首頁</a></li>
+				<li><a class="btn btn-ghost text-xl" href={baseUrl}>怪物掉落查詢</a></li>
+				<li><a class="btn btn-ghost text-xl" href={baseUrl}>物品掉落查詢</a></li>
 
-				<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1">常見問題</a></li>
-				<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1/about">關於我們</a></li>
+				<li><a class="btn btn-ghost text-xl" href={baseUrl}>常見問題</a></li>
+				<li><a class="btn btn-ghost text-xl" href="{baseUrl}/about">關於我們</a></li>
 			</ul>
 		</div>
-		<a class="btn btn-ghost text-xl" href="https://127.0.0.1">Problytic</a>
+		<a class="btn btn-ghost text-xl" href={baseUrl}>Problytic</a>
 	</div>
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
-			<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1">首頁</a></li>
-			<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1">怪物掉落查詢</a></li>
-			<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1">物品掉落查詢</a></li>
+			<li><a class="btn btn-ghost text-xl" href={baseUrl}>首頁</a></li>
+			<li><a class="btn btn-ghost text-xl" href={baseUrl}>怪物掉落查詢</a></li>
+			<li><a class="btn btn-ghost text-xl" href={baseUrl}>物品掉落查詢</a></li>
 
-			<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1">常見問題</a></li>
-			<li><a class="btn btn-ghost text-xl" href="https://127.0.0.1">關於我們</a></li>
+			<li><a class="btn btn-ghost text-xl" href={baseUrl}>常見問題</a></li>
+			<li><a class="btn btn-ghost text-xl" href={baseUrl}>關於我們</a></li>
 		</ul>
 	</div>
 	<div class="navbar-end">
-		<a class="btn btn-primary" href="https://127.0.0.1">登入</a>
+		<a class="btn btn-primary" href={baseUrl}>登入</a>
 	</div>
 </div>
 
