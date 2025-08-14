@@ -31,7 +31,7 @@
 				class="menu menu-sm dropdown-content bg-neutral text-neutral-content rounded-box z-1 mt-3 w-52 p-2 shadow"
 			>
 				<li><a class="btn btn-ghost text-xl" href={baseUrl}>首頁</a></li>
-				<li><a class="btn btn-ghost text-xl" href={baseUrl}>怪物掉落查詢</a></li>
+				<li><a class="btn btn-ghost text-xl" href="{baseUrl}/monster">怪物掉落查詢</a></li>
 				<li><a class="btn btn-ghost text-xl" href={baseUrl}>物品掉落查詢</a></li>
 
 				<li><a class="btn btn-ghost text-xl" href={baseUrl}>常見問題</a></li>
@@ -43,11 +43,11 @@
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
 			<li><a class="btn btn-ghost text-xl" href={baseUrl}>首頁</a></li>
-			<li><a class="btn btn-ghost text-xl" href={baseUrl}>怪物掉落查詢</a></li>
+			<li><a class="btn btn-ghost text-xl" href="{baseUrl}/monster">怪物掉落查詢</a></li>
 			<li><a class="btn btn-ghost text-xl" href={baseUrl}>物品掉落查詢</a></li>
 
 			<li><a class="btn btn-ghost text-xl" href={baseUrl}>常見問題</a></li>
-			<li><a class="btn btn-ghost text-xl" href={baseUrl}>關於我們</a></li>
+			<li><a class="btn btn-ghost text-xl" href="{baseUrl}/about">關於我們</a></li>
 		</ul>
 	</div>
 	<div class="navbar-end">
